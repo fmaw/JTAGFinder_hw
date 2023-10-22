@@ -334,6 +334,10 @@
     [
       "1bc3728f-429c-4b4e-ad94-277c4090b0e7",
       "USB_input_interface"
+    ],
+    [
+      "651e631a-de0f-4a69-a119-5cdead14cfb1",
+      "PowerSupply"
     ]
   ],
   "text_variables": {}

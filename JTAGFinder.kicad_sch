@@ -6275,7 +6275,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f5778ad-633d-4937-9517-350bd8774089)
   )
-  (text "Main Board of JTAGFinder (Jtagulator mod):\n- P8X32A-D30 main controller\n- Flash I2C of 512kBit\n- Pullups for I2C Bus"
+  (text "Power Supply:\n- MIC2025-2YM (dc dc to 5V)\n- LDO +3V3\n- PowerFlags"
     (at 67.31 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cd7f9fe5-4bf4-4ff4-8be5-8f8d2da46cb5)
@@ -6298,19 +6298,36 @@
     )
   )
 
-  (sheet (at 121.285 26.67) (size 33.02 17.78) (fields_autoplaced)
+  (sheet (at 118.745 26.67) (size 35.56 22.86)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 56d043b9-8fe6-4689-a732-ed49fd9c64ac)
-    (property "Sheetname" "uController" (at 121.285 25.9584 0)
+    (property "Sheetname" "uController" (at 118.745 25.9584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "p8x32d40.kicad_sch" (at 121.285 45.0346 0)
+    (property "Sheetfile" "p8x32d40.kicad_sch" (at 118.745 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "JTAGFinder"
         (path "/204d557f-3c83-43db-b1fd-628e15efe3d8" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 73.66 79.375) (size 29.845 15.875) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 651e631a-de0f-4a69-a119-5cdead14cfb1)
+    (property "Sheetname" "PowerSupply" (at 73.66 78.6634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "psu_jtagfinder.kicad_sch" (at 73.66 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "JTAGFinder"
+        (path "/204d557f-3c83-43db-b1fd-628e15efe3d8" (page "4"))
       )
     )
   )
