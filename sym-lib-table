@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/00_libs/00_symbols/LDO.kicad_sym")(options "")(descr ""))
+  (lib (name "Logic_Level_Translator")(type "KiCad")(uri "${KIPRJMOD}/00_libs/00_symbols/Logic_Level_Translator.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD_Protections")(type "KiCad")(uri "${KIPRJMOD}/00_libs/00_symbols/ESD_Protections.kicad_sym")(options "")(descr ""))
 )
