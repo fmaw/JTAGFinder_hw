@@ -338,6 +338,14 @@
     [
       "651e631a-de0f-4a69-a119-5cdead14cfb1",
       "PowerSupply"
+    ],
+    [
+      "780a57d9-8e22-4fbc-83b5-b52b31490d43",
+      "Protected Output"
+    ],
+    [
+      "65b69301-f5f9-4404-a784-7707e16e7b03",
+      "Clean Output"
     ]
   ],
   "text_variables": {}
