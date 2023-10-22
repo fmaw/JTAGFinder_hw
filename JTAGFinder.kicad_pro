@@ -329,7 +329,11 @@
     ],
     [
       "56d043b9-8fe6-4689-a732-ed49fd9c64ac",
-      "propeller p8x32"
+      "uController"
+    ],
+    [
+      "1bc3728f-429c-4b4e-ad94-277c4090b0e7",
+      "USB_input_interface"
     ]
   ],
   "text_variables": {}
