@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Inductors_SMD")(type "KiCad")(uri "${KIPRJMOD}/00_libs/01_footprints/Inductors_SMD.pretty")(options "")(descr ""))
+)
