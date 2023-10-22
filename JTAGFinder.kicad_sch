@@ -1,5 +1,21 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 204d557f-3c83-43db-b1fd-628e15efe3d8)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "JTAGFinder")
+    (date "2023-10-22")
+    (rev "001")
+    (company "fmaw")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
