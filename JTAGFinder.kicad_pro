@@ -183,6 +183,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.55
         }
       ],
       "zones_allow_external_fillets": true
@@ -509,6 +513,10 @@
     [
       "65b69301-f5f9-4404-a784-7707e16e7b03",
       "Clean Output"
+    ],
+    [
+      "23128624-2a35-4029-9282-e4fa9f93770c",
+      "extra_interface"
     ]
   ],
   "text_variables": {}

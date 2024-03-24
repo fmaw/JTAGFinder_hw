@@ -1108,7 +1108,7 @@
   (symbol (lib_id "power:VDD") (at 85.09 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00051740-fbd9-4bc4-ac2f-d08527b116be)
-    (property "Reference" "#PWR029" (at 85.09 96.52 0)
+    (property "Reference" "#PWR049" (at 85.09 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 85.09 87.63 0)
@@ -1123,9 +1123,6 @@
     (pin "1" (uuid f17d3b51-e159-4523-8dc3-e6c0ae2cae56))
     (instances
       (project "JTAGFinder"
-        (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/1bc3728f-429c-4b4e-ad94-277c4090b0e7"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/651e631a-de0f-4a69-a119-5cdead14cfb1"
           (reference "#PWR049") (unit 1)
         )

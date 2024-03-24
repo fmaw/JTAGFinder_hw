@@ -603,7 +603,7 @@
   (symbol (lib_id "power:GND") (at 38.1 41.91 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4762464b-86a9-480a-b389-d7e94eface8d)
-    (property "Reference" "#PWR058" (at 38.1 35.56 0)
+    (property "Reference" "#PWR081" (at 38.1 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 36.83 0)
@@ -618,9 +618,6 @@
     (pin "1" (uuid fb614b76-d546-4cd9-9e10-2a3c04d95a46))
     (instances
       (project "JTAGFinder"
-        (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/780a57d9-8e22-4fbc-83b5-b52b31490d43"
-          (reference "#PWR058") (unit 1)
-        )
         (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/65b69301-f5f9-4404-a784-7707e16e7b03"
           (reference "#PWR081") (unit 1)
         )
@@ -656,7 +653,7 @@
   (symbol (lib_id "power:GND") (at 78.74 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86781e16-c32e-4ab2-b04a-ee24a20938f5)
-    (property "Reference" "#PWR058" (at 78.74 35.56 0)
+    (property "Reference" "#PWR078" (at 78.74 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 36.83 0)
@@ -671,9 +668,6 @@
     (pin "1" (uuid 7d5cc4a2-87da-4914-bba8-22db4c8cea08))
     (instances
       (project "JTAGFinder"
-        (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/780a57d9-8e22-4fbc-83b5-b52b31490d43"
-          (reference "#PWR058") (unit 1)
-        )
         (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/65b69301-f5f9-4404-a784-7707e16e7b03"
           (reference "#PWR078") (unit 1)
         )
@@ -750,7 +744,7 @@
   (symbol (lib_id "power:GND") (at 38.1 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93977d60-8307-43a5-a7c2-7486b8dc9a58)
-    (property "Reference" "#PWR058" (at 38.1 101.6 0)
+    (property "Reference" "#PWR080" (at 38.1 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 100.33 0)
@@ -765,9 +759,6 @@
     (pin "1" (uuid 4271f681-a1e3-4aae-ad3b-b7a4f9d336d1))
     (instances
       (project "JTAGFinder"
-        (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/780a57d9-8e22-4fbc-83b5-b52b31490d43"
-          (reference "#PWR058") (unit 1)
-        )
         (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/65b69301-f5f9-4404-a784-7707e16e7b03"
           (reference "#PWR080") (unit 1)
         )
@@ -778,7 +769,7 @@
   (symbol (lib_id "power:GND") (at 78.74 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 983a4a43-98f8-4675-8e82-3d98ccb404cb)
-    (property "Reference" "#PWR058" (at 78.74 101.6 0)
+    (property "Reference" "#PWR079" (at 78.74 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 100.33 0)
@@ -793,9 +784,6 @@
     (pin "1" (uuid d1044a2f-5f95-4be8-815b-016cce432d96))
     (instances
       (project "JTAGFinder"
-        (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/780a57d9-8e22-4fbc-83b5-b52b31490d43"
-          (reference "#PWR058") (unit 1)
-        )
         (path "/204d557f-3c83-43db-b1fd-628e15efe3d8/65b69301-f5f9-4404-a784-7707e16e7b03"
           (reference "#PWR079") (unit 1)
         )
