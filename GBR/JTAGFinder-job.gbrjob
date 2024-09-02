@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.11-7.0.11~ubuntu22.04.1"
     },
-    "CreationDate": "2024-09-03T00:59:24+02:00"
+    "CreationDate": "2024-09-03T01:32:52+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -17,7 +17,7 @@
       "X": 90.1,
       "Y": 70.1
     },
-    "LayerNumber": 6,
+    "LayerNumber": 4,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -57,18 +57,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "JTAGFinder-In3_Cu.gbr",
-      "FileFunction": "Copper,L4,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "JTAGFinder-In4_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "JTAGFinder-B_Cu.gbr",
-      "FileFunction": "Copper,L6,Bot",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -140,7 +130,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.535,
+      "Thickness": 1.24,
       "Material": "FR4",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -154,32 +144,8 @@
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "In2.Cu/In3.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In3.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.535,
-      "Material": "FR4",
-      "Name": "In3.Cu/In4.Cu",
-      "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In4.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.1,
-      "Material": "FR4",
-      "Name": "In4.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
